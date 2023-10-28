@@ -1,5 +1,4 @@
 export interface JobType {
-  id: string;
   title: string;
   company: string;
   duration: string;
@@ -9,39 +8,42 @@ export interface JobType {
 
 export const jobs: JobType[] = [
   {
-    id: "1",
-    title: "Frontend Developer",
-    company: "Magnet Forensics",
-    duration: "July 2022 - Present",
-    description: `Hired to spearhead web development for a new product being launched and to mentor other developers. `,
+    title: "Key Account Representative",
+    company: "Solenis Canada ULC, Pulp & Paper Division",
+    duration: "July 2020 - Present",
+    description: `Irving Tissue 2020-2021, Lake Utopia 2022-Present`,
     responsibilities: [
-      "Rewriting entire repositories to be clean, fast, and future-proof",
-      "Leading efforts in API design, UX, DX, testing, and security",
-      "Holding seminars on web development and UX discussions with company leaders.",
+      "Organized and executed high level trials and meetings",
+      "Worked with various departments to determine opportunities for improvements and implemented them",
+      "Developed regular reports, managed inventory, made safety and process improvements",
+      "Developed training material and lockout procedures for operations",
+      "Successfully commissioned new equipment and applications",
     ],
   },
   {
-    id: "2",
-    title: "Lead Frontend Developer - Lead UX Designer",
-    company: "Gray Wolf Analytics Inc.",
-    duration: "January 2021 - July 2022",
-    description: `Sole Frontend contributor for fast-paced startup. The small size of the company allowed Nathan to learn many new skills, including: `,
+    title: "Orientation Chair",
+    company: "University of New Brunswick Student Union",
+    duration: "2018",
+    description: `Orientation char for the summer lol`,
     responsibilities: [
-      "Building, securing, and deploying a production-grade web app",
-      "Designing attractive and intuitive UI / UX",
-      "Shaping company goals into actionable projects",
+      "Successfully planned, organized, and executed Orientation Week for over 1000 new students",
+      "Interviewed, selected, and managed a leadership team",
+      "Developed and presented training material to over 150 orientation leaders",
+      "Developed an emergency response plan, detailed schedule, and execution plan for each event",
+      "Developed sponsorships and partnerships with local businesses to raise thousands of dollars in funds",
     ],
   },
   {
-    id: "3",
-    title: "Software Developer",
-    company: "IBM",
-    duration: "September 2017 - September 2020",
-    description: `Nathan worked 5 terms during his formal education as part of his CO-OP designation. Each term taught him new skills such as:`,
+    title: "Chemical Engineering Student",
+    company: "Irving Tissue Company",
+    duration: "2017",
+    description: `Summer job`,
     responsibilities: [
-      "Performing automated QA on an app's frontend",
-      "Thorough understanding of SCRUM and agile methodologies",
-      "Strong foundation in SaaS technologies",
+      "Provided technical support to operations and other departments through process improvement projects with a strong emphasis on safety",
+      "Practiced data analysis and problem-solving skills to troubleshoot operational issues",
+      "Coordinated between different internal departments as well as external contractors",
+      "Developed skills in project management and effective written and verbal communication",
+      "Worked on several diverse projects both independently and on a team",
     ],
   },
 ];

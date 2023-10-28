@@ -7,14 +7,14 @@ const Skills = () => {
   return (
     <Section title="Skills">
       <SubHeading text="Technical" />
-      {technicalSkills?.map((skill) => (
+      {technicalSkills.map((skill) => (
         <li key={skill} className="text-xs print:text-sm text-gray-500">
           {skill}
         </li>
       ))}
       <br></br>
       <SubHeading text="Leadership" />
-      {leadershipSkills?.map((skill) => (
+      {leadershipSkills.map((skill) => (
         <li key={skill} className="text-xs print:text-sm text-gray-500">
           {skill}
         </li>

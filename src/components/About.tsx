@@ -2,12 +2,12 @@ import Section from "./Section";
 
 const About = () => {
   return (
-    <Section title="About">
+    <Section title="About Me">
       <p className="text-gray-500 text-xs print:text-sm  text-justify">
-        Nathan is a passionate, driven, and highly ambitious worker who takes
-        immense pride in the things he creates. He cares deeply about the
-        end-user experience, and is dedicated to providing humane and beautiful
-        interfaces for everyday use.
+        I seek to be challenged. I love working with people and building teams.
+        I am a quick leaner, and I believe that hard work, dedication, and
+        positive attitudes lead to success. I am a mother to a wonderful
+        two-year old with special needs.
       </p>
     </Section>
   );

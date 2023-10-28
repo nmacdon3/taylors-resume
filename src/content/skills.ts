@@ -1,16 +1,15 @@
 export const technicalSkills: string[] = [
-  "React",
-  "Typescript",
-  "UI/UX Design",
-  "CSS",
-  "API Design",
-  "Logging and Monitoring",
+  "Microsoft Office 365",
+  "ParcView",
+  "Pulp & Paper Experience",
+  "Waste-Water Treatment",
+  "Laboratory Procedures & Analysis",
 ];
 
 export const leadershipSkills: string[] = [
-  "Project Management",
-  "Independent Learning",
-  "Clear Communication",
-  "Customer-First Mindset",
-  "Mentoring",
+  "Interpersonal Skills",
+  "Organizational Skills",
+  "Time Management",
+  "Written & Verbal Communication",
+  "Self-motivated & Self-starter",
 ];

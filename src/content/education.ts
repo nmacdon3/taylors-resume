@@ -1,5 +1,4 @@
 export interface EducationType {
-  id: string;
   title: string;
   subTitle: string;
   school: string;
@@ -8,10 +7,9 @@ export interface EducationType {
 
 export const education: EducationType[] = [
   {
-    id: "1",
-    title: "Bachelor of Computer Science",
-    subTitle: "Minor in Business Administration (CO-OP)",
+    title: "Bachelor of Science in Chemical Engineering",
+    subTitle: "Minor in Mathematics and Business Administration",
     school: "University of New Brunswick",
-    duration: "September, 2016 - December, 2020",
+    duration: "September 2014 - May 2019",
   },
 ];

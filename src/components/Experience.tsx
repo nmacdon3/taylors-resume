@@ -29,9 +29,9 @@ const Job = ({ job }: { job: JobType }) => {
 const Experience = () => {
   return (
     <Section title="Experience">
-      {jobs?.map((job) => (
+      {jobs.map((job) => (
         <div
-          key={job.id}
+          key={job.title}
           className="pb-7 flex items-start ml-1  translate-y-1 -translate-x-1"
         >
           <HiChevronRight className="h-4 w-4  rounded-full shrink-0  mr-1 -translate-x-1 text-accent" />

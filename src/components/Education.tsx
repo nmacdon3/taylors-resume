@@ -22,8 +22,8 @@ const EducationItem = ({ education }: { education: EducationType }) => {
 const Education = () => {
   return (
     <Section title="Education">
-      {education?.map((item) => (
-        <EducationItem key={item.id} education={item} />
+      {education.map((item) => (
+        <EducationItem key={item.title} education={item} />
       ))}
     </Section>
   );
