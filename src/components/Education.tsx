@@ -5,16 +5,17 @@ import Section from "./Section";
 const EducationItem = ({ education }: { education: EducationType }) => {
   return (
     <div>
-      <h4 className="text-xs print:text-sm  w-40  text-gray-500">
-        <span className="font-medium text-gray-700">{education.title}</span>,{" "}
-        {education.subTitle}
-      </h4>
-      <h5 className="text-xs print:text-sm mt-1 font-medium text-motif">
+      <h5 className="text-xs print:text-sm font-medium text-motif">
         {education.school}
       </h5>
-      <h5 className="text-xs print:text-sm opacity-80 mt-1 text-motif">
+      <h5 className="text-xs print:text-sm opacity-80 text-motif">
         {education.duration}
       </h5>
+      <h4 className="text-xs print:text-sm  mt-1  w-40  text-gray-500">
+        <span className="font-medium text-gray-700">{education.title}</span>,{" "}
+        <br />
+        {education.subTitle}
+      </h4>
     </div>
   );
 };

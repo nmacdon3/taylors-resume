@@ -19,9 +19,6 @@ const Resume = () => {
           <Skills />
           <Certificates />
           <Education />
-          <i className="text-xs text-gray-500">
-            References available upon request
-          </i>
         </aside>
       </div>
       <Footer />

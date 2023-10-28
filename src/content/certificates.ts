@@ -14,7 +14,7 @@ export const certificates: CertificateType[] = [
   },
   {
     name: "CPR/First Aid",
-    year: "2018",
+    year: "2023/2018",
   },
   {
     name: "Lean Six Sigma White Belt Training",

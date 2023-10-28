@@ -2,7 +2,7 @@ export const technicalSkills: string[] = [
   "Microsoft Office 365",
   "ParcView",
   "Pulp & Paper Experience",
-  "Waste-Water Treatment",
+  "Waste-Water Treatment Experience",
   "Laboratory Procedures & Analysis",
 ];
 

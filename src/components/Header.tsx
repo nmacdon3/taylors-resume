@@ -1,5 +1,3 @@
-import { TbTopologyStarRing3 } from "react-icons/tb";
-
 import PROFILE_PIC from "/headshot.webp";
 import COVER_PIC from "/cover.webp";
 
@@ -20,8 +18,6 @@ const Header = () => {
         </h1>
         <div className="flex items-center sm:font-thin flex-wrap text-sm sm:text-lg print:text-lg relative text-white print:text-white">
           Chemical Engineer (EIT)
-          <TbTopologyStarRing3 className="mx-2 h-5 w-5" /> Key Account
-          Representative
         </div>
       </div>
     </header>
