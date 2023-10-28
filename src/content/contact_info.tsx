@@ -7,5 +7,5 @@ export interface ContactInfo {
 export const contactInfo: ContactInfo = {
   email: "taylor.morgan@unb.ca",
   phone: "506-609-9575",
-  linkedin: "www.linkedin.com/in/nathanmacd",
+  linkedin: "https://www.linkedin.com/in/taylor-macdonald-929166134/",
 };

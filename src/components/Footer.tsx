@@ -49,10 +49,6 @@ const Footer = () => {
           link={`https://${contactInfo?.linkedin}`}
         />
       </div>
-
-      <div className="text-xs  text-gray-400 md:absolute md:pb-0 pb-2 bottom-4 right-0 print:right-16  print:hidden">
-        References available upon request
-      </div>
     </footer>
   );
 };

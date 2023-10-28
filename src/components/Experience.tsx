@@ -1,5 +1,6 @@
 import { BsDot } from "react-icons/bs";
 import { HiChevronRight } from "react-icons/hi";
+
 import { jobs, JobType } from "~/content/jobs";
 
 import Section from "./Section";
