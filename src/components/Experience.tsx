@@ -1,6 +1,6 @@
 import { BsDot } from "react-icons/bs";
 import { HiChevronRight } from "react-icons/hi";
-import { JobType, useJobs } from "~/content/jobs";
+import { jobs, JobType } from "~/content/jobs";
 
 import Section from "./Section";
 import SubHeading from "./SubHeading";
@@ -27,8 +27,6 @@ const Job = ({ job }: { job: JobType }) => {
 };
 
 const Experience = () => {
-  const jobs = useJobs();
-
   return (
     <Section title="Experience">
       {jobs?.map((job) => (

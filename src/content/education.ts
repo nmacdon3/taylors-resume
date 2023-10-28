@@ -15,7 +15,3 @@ export const education: EducationType[] = [
     duration: "September, 2016 - December, 2020",
   },
 ];
-
-export function useEducation() {
-  return education;
-}

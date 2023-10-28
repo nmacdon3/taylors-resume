@@ -1,4 +1,4 @@
-import { EducationType, useEducation } from "~/content/education";
+import { EducationType, education } from "~/content/education";
 
 import Section from "./Section";
 
@@ -20,11 +20,9 @@ const EducationItem = ({ education }: { education: EducationType }) => {
 };
 
 const Education = () => {
-  const educationItems = useEducation();
-
   return (
     <Section title="Education">
-      {educationItems?.map((item) => (
+      {education?.map((item) => (
         <EducationItem key={item.id} education={item} />
       ))}
     </Section>

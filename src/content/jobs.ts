@@ -45,7 +45,3 @@ export const jobs: JobType[] = [
     ],
   },
 ];
-
-export function useJobs() {
-  return jobs;
-}

@@ -2,8 +2,8 @@ import Education from "./Education";
 import Header from "./Header";
 import About from "./About";
 import Experience from "./Experience";
-// import Skills from "./Skills";
-// import Footer from "./Footer";
+import Skills from "./Skills";
+import Footer from "./Footer";
 
 const Resume = () => {
   return (
@@ -15,11 +15,11 @@ const Resume = () => {
           <Experience />
         </section>
         <aside className=" sm:mt-8  space-x-12 sm:space-x-0 print:space-x-0 sm:w-40 print:w-56  flex sm:flex-col px-2 sm:px-0 print:flex-col">
-          {/* <Skills /> */}
+          <Skills />
           <Education />
         </aside>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
