@@ -27,7 +27,7 @@ import Resume from "~/components/Resume";
 
 const App = () => {
   return (
-    <div className="h-screen bg-gradient-to-t from-gray-300 font-body flex justify-center overflow-y-scroll sm:py-10 print:py-0">
+    <div className="h-screen bg-gradient-to-t from-gray-300 font-body flex justify-center overflow-y-scroll sm:py-10 ">
       {/* <PrintButton /> */}
       <Resume />
       {/* <MobilePrintButton /> */}

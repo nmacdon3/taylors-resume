@@ -33,8 +33,10 @@ const FooterItem = ({
 const Footer = () => {
   return (
     <div className="flex flex-col items-center gap-6">
-      <i className="text-xs text-gray-700">References available upon request</i>
-      <footer className=" w-full h-16 text-xs print:text-sm  text-gray-500 space-y-2 relative print:px-16 ">
+      <i className="text-xs text-gray-700 pb-10">
+        References available upon request
+      </i>
+      {/* <footer className=" w-full h-10 text-xs print:text-sm  text-gray-500 space-y-2 relative print:px-16 ">
         <div className="sm:flex print:flex border-t border-[#cf8b67] pt-4 items-center sm:space-x-3 print:space-x-3 mb-4 space-y-1 sm:space-y-0 print:space-y-0">
           <FooterItem
             icon={{ value: HiOutlineMail }}
@@ -51,7 +53,7 @@ const Footer = () => {
             link={`https://${contactInfo?.linkedin}`}
           />
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
