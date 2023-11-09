@@ -8,10 +8,10 @@ import Certificates from "./Certificates";
 
 const Resume = () => {
   return (
-    <div className=" print:w-full transition-all ease-in-out duration-1000 shadow h-auto sm:h-[1056px] w-[768px] sm:overflow-hidden overflow-scroll flex flex-col bg-white relative sm:px-10 px-6  sm:rounded-lg">
+    <div className=" print:w-full transition-all ease-in-out duration-1000 shadow h-auto sm:h-[1056px] w-[818px] sm:overflow-hidden overflow-scroll overflow-x-hidden flex flex-col bg-white relative sm:px-12 px-6 sm:rounded-lg  ">
       <Header />
       <div className="flex sm:space-x-8  mt-12 sm:mt-10   flex-grow flex-wrap ">
-        <section className="w-[30rem]">
+        <section className="w-[32rem]">
           <About />
           <Experience />
         </section>

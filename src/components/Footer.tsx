@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex justify-center pb-10">
+    <div className="flex justify-center pb-10 ">
       <i className="text-xs text-gray-700 ">
         References available upon request
       </i>

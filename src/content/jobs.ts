@@ -16,7 +16,8 @@ export const jobs: JobType[] = [
       "Organized and executed high level trials and meetings",
       "Worked with various departments to organize and execute projects",
       "Provided regular written reports and proposals, managed inventory, made safety and process improvements",
-      "Developed training material, lockout procedures and troubleshooting manuals for operations",
+      "Performed regular lab work and data analysis",
+      "Developed and provided training material, and troubleshooting manuals",
       "Successfully commissioned new equipment and applications",
     ],
   },
@@ -26,9 +27,8 @@ export const jobs: JobType[] = [
     duration: "Jan 2018 - Nov 2018",
     description: `Successfully planned, organized and executed Orientation Week for over 1000 new students`,
     responsibilities: [
-      "Interviewed, selected, and managed a leadership team",
-      "Developed and presented training material to over 150 orientation leaders",
-      "Developed an emergency response plan, detailed schedule, and execution plan for several events",
+      "Interviewed, selected, trained and managed a leadership team of over 150 people",
+      "Developed an emergency response plan, detailed schedule, and execution plan for all events",
       "Developed sponsorships and partnerships with local businesses",
     ],
   },
@@ -40,9 +40,7 @@ export const jobs: JobType[] = [
     responsibilities: [
       "Provided technical support to operations and other departments through process improvement projects with a strong emphasis on safety",
       "Practiced data analysis and problem-solving skills to troubleshoot operational issues",
-      "Coordinated between different internal departments as well as external contractors",
       "Developed skills in project management and effective written and verbal communication",
-      "Worked on several diverse projects both independently and on a team",
     ],
   },
 ];
